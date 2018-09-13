@@ -4,5 +4,5 @@ def alphabetize(arr)
   esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   esp_alph_arr = esp_alph.chars
   binding.pry
-  #arr.sort_by{|string| string.chars.collect do |x|
+  #arr.sort_by{|string| string.chars.collect do |x| x
 end
