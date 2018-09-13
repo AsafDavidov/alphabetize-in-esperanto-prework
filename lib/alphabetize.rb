@@ -3,5 +3,6 @@ def alphabetize(arr)
   # code here
   esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   esp_alph_arr = esp_alph.chars
-  binding.pry
+  #binding.pry
+  arr.sort_by
 end
