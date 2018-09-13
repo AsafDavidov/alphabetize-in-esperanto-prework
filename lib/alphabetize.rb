@@ -1,5 +1,5 @@
 def alphabetize(arr)
   # code here
-  "esp_alph" = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sortby
+  esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  esp_alph_arr = esp_alph.chars
 end
