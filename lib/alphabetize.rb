@@ -4,6 +4,7 @@ def alphabetize(arr)
   esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   esp_alph_arr = esp_alph.chars
   #binding.pry
-  arr.sort_by{|string| string.chars.collect do |x| esp_alph_arr.index(x)}
-  end
+  arr.sort_by{|string| string.chars.collect do |x| esp_alph_arr.index(x)
+    end
+  }
 end
